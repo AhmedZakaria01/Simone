@@ -73,12 +73,6 @@ a {
   color: #dee3e4;
 }
 
-.hire-btn :hover {
-  color: #fff;
-  background-color: #00fcb0;
-  transition: 0.8s;
-}
-
 .head-center button {
   background-color: transparent;
   color: #20c997;
@@ -87,6 +81,12 @@ a {
   border-radius: 40px;
   font-size: 16px;
 }
+.hire-btn :hover {
+  color: #fff;
+  background-color: #00fcb0;
+  transition: 0.8s;
+}
+
 /* END OF HEAD  Section*/
 
 /* START  What i DO Section */
@@ -98,15 +98,17 @@ a {
 }
 
 .what-section .title {
-  width: 50%;
+
+  width: 100%;
   text-align: center;
   padding: 20px 0px;
   position: relative;
 }
 
 .what-section .title h2 {
+  width: 100%;
   color: #dee3e4;
-  font-size: 100px;
+  font-size:5rem;
   opacity: 0.4;
   font-weight: 600 !important;
   line-height: 54px;
@@ -122,7 +124,7 @@ a {
 }
 
 .what-section .title p {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   margin: 0px !important;
 }
@@ -221,7 +223,7 @@ a {
 }
 
 .services .title-1 {
-  font-size: 100px;
+  font-size: 5rem;
   color: rgba(241, 241, 241, 0.697);
   letter-spacing: 5px;
   font-family: var(--poppins);
@@ -330,7 +332,7 @@ h4 {
 
 .portfolio-title h2 {
   font-family: var(--poppins);
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 900;
   color: #edf0f1;
 }
@@ -375,18 +377,18 @@ h4 {
 }
 
 .all::after {
-  content: "";
+  /* content: "";
   position: absolute;
   height: 2px;
   background-color: var(--green) !important;
   top: 100%;
   left: 50%;
   transform: translate(-50%);
-  margin-top: 5px;
+  margin-top: 5px; */
   width: 100%;
 }
 
-.port li a:hover {
+.port li a:hover{
   color: var(--green);
   transition-delay: 150ms;
 }
@@ -401,7 +403,7 @@ h4 {
 /* Start client */
 
 .client-title h2 {
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 900;
   font-family: var(--poppins);
   color: rgb(242, 244, 244);
@@ -420,7 +422,7 @@ h4 {
   width: 80px;
   height: 3px;
   background-color: var(--green);
-  top: 65%;
+  top: 75%;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -465,7 +467,7 @@ h4 {
 }
 
 .contact-title h2 {
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 900;
   font-family: var(--poppins);
   color: #edf0f1;
@@ -484,7 +486,7 @@ h4 {
   width: 80px;
   height: 3px;
   background-color: var(--green);
-  top: 65%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -571,7 +573,7 @@ h4 {
 }
 
 .main-imgs {
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .images .layer h4 {
@@ -586,3 +588,91 @@ h4 {
 }
 
 /* End Contact */
+
+
+
+
+/* @media screen and (max-width:767px) {
+  .head-center h2 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #dee3e4;
+  }
+  
+  .head-center h1 {
+    font-size: 64px;
+    line-height: 83px;
+    margin: 10px 0px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #dee3e4;
+  }
+  
+  .head-center h3 {
+    font-size: 21px;
+    margin: 10px 0px;
+    line-height: 38px;
+    color: #dee3e4;
+  }
+  
+  .head-center button {
+    background-color: transparent;
+    color: #20c997;
+    padding: 10px 40px;
+    border: 2px solid #20c997;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+} */
+
+@media screen and (min-width:767px) and (max-width:1023px){
+  .head-center {
+    color: aliceblue;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+  .head-center h2 {
+    font-size: 20px;
+    line-height: 50px;
+    color: #dee3e4;
+  }
+  .head-center h1 {
+    font-size: 44px;
+    line-height: 83px;
+    margin: 10px 0px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #dee3e4;
+  }
+  
+  .head-center h3 {
+    font-size: 18px;
+    margin: 10px 0px;
+    line-height: 38px;
+    color: #dee3e4;
+  }
+  
+  .head-center button {
+    background-color: transparent;
+    color: #20c997;
+    padding: 8px 40px;
+    border: 2px solid #20c997;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+
+
+}
+
+
+@media screen and (max-width:1024px) {
+  
+}
+
+
+
